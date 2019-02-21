@@ -44,13 +44,48 @@
   </form>
   <br>
   <div class="card text-center">
-    <div class="card-header">
+    <div class="card-header ">
     </div>
     <div class="card-body">
       <h3 align = left class="card-title">No.Factura#</h3>
-      <h3 id="Fecha">Fecha:</h3>
-      <a href="#" class="btn btn-primary">Guardar Factura</a>
-    </div>
-  </div>
+      <h3 id="Align" class="card-title">Fecha:</h3>
+      <table class="table table-success">
+        <thead>
+          <tr>
+
+            <th scope="col">Servicio</th>
+            <th scope="col">Costo</th>
+            <th scope="col">Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+
+            <td>Agua</td>
+            <td>$100</td>
+            <td>Pago del agua atrasado</td>
+
+          </tr>
+
+        </tbody>
+      </table>
+      <p align = left>Ingresos:
+        <div class="col-sm-1">
+          <input type="text" class="form-control" >
+        </div>
+      </p>
+
+      <p align = left>Total:  <div class="col-sm-1">
+          <input type="text" class="form-control" >
+        </div>
+      </p>
+
+      <p align = left>Ahorro:  <div class="col-sm-1">
+          <input type="text" class="form-control" >
+        </div>
+      </p>
+      <div class="row">
+<input align = left class="btn btn-primary btn-xs" type="button" value="Guardar Factura">
+
   </body>
 </html>
